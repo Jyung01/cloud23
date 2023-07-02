@@ -1,5 +1,5 @@
 const https = require("https");
-let apikey = "k240t243h096n110x050y080d0";
+let apikey = "";
 
 let url = `https://unipass.customs.go.kr:38010/ext/rest/trifFxrtInfoQry/retrieveTrifFxrtInfo?crkyCn=${apikey}` +
     `&qryYymmDd=${getToday()}&imexTp=2`;
